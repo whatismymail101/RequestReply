@@ -1,19 +1,4 @@
 
-Navigation Menu
-RequestReply
-
-Code
-Issues
-Pull requests
-RequestReply/
-whatismymail101
-whatismymail101
-1 minute ago
-RequestReply/
-Name	Last commit date
-README.md
-1 minute ago
-README.md
 // 1. REQUEST MODEL package com.example.model;
 
 public class OrderRequest { public String orderId; public String product; public int quantity; public String replyTo; // Topic to send reply to public String correlationId; // To correlate request with response }
